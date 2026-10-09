@@ -1,4 +1,4 @@
-# Network notes
+# Network Notes
 
 
 ## Network/Subnet/LAN
