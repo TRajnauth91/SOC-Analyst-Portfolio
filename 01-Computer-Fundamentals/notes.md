@@ -15,7 +15,42 @@ The Memory or storage is where information is stored that doesn't require the co
 ## Network Adapter
 The Network Adapter is the part of the computer that allows it to communicate to other computers on the same network. Local networks (like your home) also need a network adapter to allow the computers on them to talk to each other. And then to talk to the larger Network from your Internet Service Provider. Because of this, a piece of hardware called the Modem is used and can be found in mobile phones as well as the kind of computer your ISP gives you to connect to the internet. So when you type in the name and password to connect to Wi-Fi, you connect to their network via the network adapter in your phone. The Wi-Fi then talks to the modem, and the modem talks to the internet. Because your phone has a network adapter and modem, when you use data, it only uses the modem to connect to your phone companies cell network.
 
+## Motherboard
+The Motherboard is commonly known as the "Central Nervous System" of the computer. It was what allows and is physically connecting every piece of hardware in the machine to talk to each other. Commonly connected to things like, a Processor socket (where the CPU goes), a Chipset (Controls how the CPU, memory, and other devices interact), RAM slots (where the RAM is put in), PCIe (dedicated hardware for GPUs, sound cards, and high speed storage), storage connectors (SATA ports or M.2 slots used to connect HDDs and SSDs), and BIOS/UEFI chip (a small memory chip that essentially handles the boot up sequence for your hardware before giving control to the operating system).
 
+## Operating System (OS)
+The Operating System is the software platform that manages everything in the computer. Without it, software developers would have to write custom code to interact with every different brand of graphics cards or hard drives. The Kernel is the absolute core of an OS, it remains in RAM the entire time, managing system memory, and scheduling CPU usage. The OS manages every byte of RAM and allocates memory blocks to applications when they launch, and then take it away when they close. The OS also dictates how data is structurally stored on drives. Device Drivers are small specialized software files that teach the OS how to interact with hardware devices. 
+
+## Files and Folders
+The files in a device can be thought of as the way things are stored in a computer. We know everything is stored as 1s and 0s, but the OS identifies how to handle files using their file extension (.jpeg, .txt, .exe), and using that data, the OS knows which application to run in order to read and give output from that files binary format. Folders are special index files maintained by the file system, which gives a list of pointers to where specific files exist on the storage drive. The Hierarchical structure of storage in a computer is as follows: Root directory > Folders > Files
+
+## Applications
+An Application is simply compiled software the User can use to execute tasks. They rely on Application Program Interfaces (APIs) provided by the operating system, like when a game wants to save a file, instead of going to the hard drive, it just calls on the OS's file-saving API. Apps present information using either Graphical User Interface (GUI), with nice buttons and menus the User can interact with, or a Command Line Interface (CLI), which is just text commands. 
+
+## Processes 
+A process is an active execution environment from code sitting on a hard drive. Every process is allowed its own memory space (So if it crashes it doesn't take down the rest of the OS) dictated by the OS, and is assigned a Process ID (PID) as well as a priority level. Worth noting that a single process can spawn multiple "threads" that are smaller sub tasks running with the main task to maximize resources in multi-core CPUs, this is called Multithreading.
+
+## Services
+A Service is a process that runs quietly in the background, they don't have user interfaces and usually launch before the user even logs in. Examples include network connectivity handlers, security scanners, and print spoolers.
+
+## Users and Permissions
+A user is the person using the computer, OSs are fundamentally multi-user systems designed to protect data from unauthorized access.
+User accounts (User profiles associated with a User ID (UID)) are usually split into 2 categories. Standard Users with limited environments, and Administrators/Root with full unrestricted access across the system. Access Control Lists (ACLs) are the matrix of permissions assigned to files and folders in a system and are typically managed by 3 primary actions. Read (r) : Permission to read the contents of a file or the list of files in a folder. Write (w) : Permission to modify or delete a file, or add/delete a file in a folder. Execute (e) : Permission to run a file as a program or a script. 
+
+## Hardware vs Software
+Hardware is the physical component of a computer. Using physics, electricity, and silicon it provides the raw computing potential need to run software.
+
+Software is the binary instructions that are stored digitally. The software dictates how electricity flows through the hardware in order to perform logic.
+
+## OS vs Applications
+The OS is what governs and provides the infrastructure needed to run applications. 
+
+Applications follow the guidelines set by the OS and allow them to work independently from other apps.
+
+## Virtual Machine (VM)
+A Virtutal Machine uses software to "trick" an operating system into thinking its function on physical hardware. A Hypervisor is the software layer that manages the VM, and slices up your physical CPU, RAM, and storage, to which it presents to a virtualized version of another OS (providing complete isolation, making them fantastic for testing malware, setting up servers, and running old software. They come in 2 types. Bare-Metal which runs directly on the physical hardware, and Hosted, which runs as an application inside an existing OS.
+
+## Basic networking
 
 
 
