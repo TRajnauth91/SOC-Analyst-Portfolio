@@ -18,6 +18,15 @@ The Network Adapter is the part of the computer that allows it to communicate to
 ## Motherboard
 The Motherboard is commonly known as the "Central Nervous System" of the computer. It was what allows and is physically connecting every piece of hardware in the machine to talk to each other. Commonly connected to things like, a Processor socket (where the CPU goes), a Chipset (Controls how the CPU, memory, and other devices interact), RAM slots (where the RAM is put in), PCIe (dedicated hardware for GPUs, sound cards, and high speed storage), storage connectors (SATA ports or M.2 slots used to connect HDDs and SSDs), and BIOS/UEFI chip (a small memory chip that essentially handles the boot up sequence for your hardware before giving control to the operating system).
 
+## Bits and Bytes
+A Bit is a shortened version of Binary Digit. We know all computer functions read and process in bits (Either 1 or 0). Using American Standard Code for Information Interchange (ASCII) your computer groups these bits into 8 digit formats called Bytes, and can read and understand complex strings of these 1s and 0s, then correlate them into letters, numbers, and special characters. For example: Capital letter A in ASCII would look like 01000001.
+
+## Signal Transmission
+Once data is transformed into bits, it must travel across a physical media and has 3 different ways in which it can move across a network. 
+Electrical signals - Represents data as electrical pulses along a copper wire
+Optical signals - Converts electrical signals into pulses of light
+Wireless signals - Uses infrared, microwave, and radio waves 
+
 ## Operating System (OS)
 The Operating System is the software platform that manages everything in the computer. Without it, software developers would have to write custom code to interact with every different brand of graphics cards or hard drives. The Kernel is the absolute core of an OS, it remains in RAM the entire time, managing system memory, and scheduling CPU usage. The OS manages every byte of RAM and allocates memory blocks to applications when they launch, and then take it away when they close. The OS also dictates how data is structurally stored on drives. Device Drivers are small specialized software files that teach the OS how to interact with hardware devices. 
 
@@ -50,7 +59,8 @@ Applications follow the guidelines set by the OS and allow them to work independ
 ## Virtual Machine (VM)
 A Virtutal Machine uses software to "trick" an operating system into thinking its function on physical hardware. A Hypervisor is the software layer that manages the VM, and slices up your physical CPU, RAM, and storage, to which it presents to a virtualized version of another OS (providing complete isolation, making them fantastic for testing malware, setting up servers, and running old software. They come in 2 types. Bare-Metal which runs directly on the physical hardware, and Hosted, which runs as an application inside an existing OS.
 
-## Basic networking
+
+
 
 
 
