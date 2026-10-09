@@ -14,7 +14,16 @@ A common IP address could look something like 192.168.1.1
 Note that this IP address can be the same as someone else's if they are on a different subnet. So you and someone living down your block might both have a phone showing the same IP address, but because you are on different subnets, they don't conflict with each other.
 
 ## VPN (Virtual Private Network)
-a VPN is a network of computers, but privatized in the same way as your home network (connected via a router). The key advantage of a VPN compared to your home network is that you don't need to be physically tethered to your router, meaning you can be somewhere remote, but still have that level of privacy from the internet. It functions quite the same as a router, sending and receiving information from a computer to another subnet, but is done virtually through a software program. Using programs and rules set up, it knows what information can be sent and received, while turning away unwanted traffic.
+A VPN is a network of computers, but privatized in the same way as your home network (connected via a router). The key advantage of a VPN compared to your home network is that you don't need to be physically tethered to your router, meaning you can be somewhere remote, but still have that level of privacy from the internet. It functions quite the same as a router, sending and receiving information from a computer to another subnet, but is done virtually through a software program. Using programs and rules set up, it knows what information can be sent and received, while turning away unwanted traffic.
 
 ## Web Addresses
 We know every router on the internet is assigned a special IP address, and the computers that run a companies website (web servers) also have routers that have their own IP address. So when you type in a domain like "Microsoft.com" into your browser, you are communicating with the internets "address book" which knows that the IP of Microsofts services is ___.__._._ and routes you to their servers. Using the Domain Name System (DNS) it is much easier for you to remember where you want to go rather than knowing the IP address for every website you want to go to. It's like creating a contact for a friend, you don't spend the time memorizing all of your friends numbers, you just call "Nathan". That's what DNS is in essence, a contact folder pairing IP addresses to web addresses.
+
+## The Cloud
+The cloud is another type of Network, that essentially manages and allows multiple computers to work together on one task. Say you want to manage a ton of data or run a busy website, that gives a lot of strain onto one computer. Instead of only having one processor working on a tasks, there now can be hundreds of thousands. Typically managers (real people) or controllers (computer program) oversee these tasks and manage which resources are being allocated for which tasks. This is called scaling, when a task requires more data usage or less, the controllers or managers can scale up or down the resources for said task. Similar to the computing and database usage of these clouds, cloud storage is also a thing, which allows your computer to have access to increased storage that isn't located directly on your device. Say you have a Gigabyte of storage on OneDrive but are only using 200 megabytes, the remaining 80% of storage that isn't being used by you can be used by other people on the same cloud network, essentially maximizing resource usage. 
+
+
+
+
+
+
