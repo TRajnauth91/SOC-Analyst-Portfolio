@@ -1,4 +1,4 @@
-# Computer Fundamentals
+# Computer Fundamental Notes
 
 ## CPU (Central Processing Unit)
 The CPU is commonly known as the "Brains" of a computer. It's where the computer runs programs and processes data. Absolutely central to a computers function.
