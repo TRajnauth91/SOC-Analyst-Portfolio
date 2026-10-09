@@ -5,7 +5,7 @@
 A network is simply a group of computers. The internet as a whole is a network, but smaller networks also exist and are called Subnets. There are state wide networks, city wide networks, and even networks as small as your home that could include your phone, laptop, televisions, or any computer that functions for the sake of your home. These subnets that encompass your home, or that corporations use are called a LAN (Local Area Network). 
 One thing to note is that a unique device ID can be exposed at any level of these networks, while also being invisible to others.
 
-## What is MAC? (Your computer device ID)
+## MAC (Your computer device ID)
 MAC stands for Media Access Control. Every computer has one, this is how your phone is distinguishable from your laptop, and is unique identifying characters that can't be shared between multiple computers.
 
 ## IP (Internet Protocol)
