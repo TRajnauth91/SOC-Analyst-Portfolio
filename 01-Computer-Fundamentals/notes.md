@@ -21,6 +21,9 @@ The Motherboard is commonly known as the "Central Nervous System" of the compute
 ## Bits and Bytes
 A Bit is a shortened version of Binary Digit. We know all computer functions read and process in bits (Either 1 or 0). Using American Standard Code for Information Interchange (ASCII) your computer groups these bits into 8 digit formats called Bytes, and can read and understand complex strings of these 1s and 0s, then correlate them into letters, numbers, and special characters. For example: Capital letter A in ASCII would look like 01000001.
 
+## MAC (Your computer device ID)
+MAC stands for Media Access Control. It is a 12 digit ID for your hardware, every computer has one, this is how your phone is distinguishable from your laptop, and is unique identifying characters that can't be shared between multiple computers. For example,  "00:1A:2B:3C:4D:5E"
+
 ## Signal Transmission
 Once data is transformed into bits, it must travel across a physical media and has 3 different ways in which it can move across a network. 
 Electrical signals - Represents data as electrical pulses along a copper wire
@@ -53,8 +56,8 @@ Software is the binary instructions that are stored digitally. The software dict
 
 ## OS vs Applications
 The OS is what governs and provides the infrastructure needed to run applications. 
-
 Applications follow the guidelines set by the OS and allow them to work independently from other apps.
+(IOS,MacOS,Windows,Andriod)
 
 ## Virtual Machine (VM)
 A Virtutal Machine uses software to "trick" an operating system into thinking its function on physical hardware. A Hypervisor is the software layer that manages the VM, and slices up your physical CPU, RAM, and storage, to which it presents to a virtualized version of another OS (providing complete isolation, making them fantastic for testing malware, setting up servers, and running old software. They come in 2 types. Bare-Metal which runs directly on the physical hardware, and Hosted, which runs as an application inside an existing OS.
