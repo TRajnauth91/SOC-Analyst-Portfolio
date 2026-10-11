@@ -19,6 +19,12 @@ We know every router on the internet is assigned a special IP address, and the c
 ## The Cloud
 The cloud is another type of Network, that essentially manages and allows multiple computers to work together on one task. Say you want to manage a ton of data or run a busy website, that gives a lot of strain onto one computer. Instead of only having one processor working on a tasks, there now can be hundreds of thousands. Typically managers (real people) or controllers (computer program) oversee these tasks and manage which resources are being allocated for which tasks. This is called scaling, when a task requires more data usage or less, the controllers or managers can scale up or down the resources for said task. Similar to the computing and database usage of these clouds, cloud storage is also a thing, which allows your computer to have access to increased storage that isn't located directly on your device. Say you have a Gigabyte of storage on OneDrive but are only using 200 megabytes, the remaining 80% of storage that isn't being used by you can be used by other people on the same cloud network, essentially maximizing resource usage. 
 
+## Bandwidth 
+Bandwidth is the capacity of a medium to transfer data. Digital Bandwidth measures the amount of data that can flow from one place to another in a given amount of time. Common Bandwidth measurements are Kbps (Thousands of bits per second), Mbps (Millions of bits per second, and Gbps billions of bits per second). 
+
+## Throughput
+Throughput is similar to bandwidth, it measures the transfer of bits across media over a given time. But due to a couple factors, usually doesn't match bandiwidth. For example : The amount of data being sent and recieved over the connection, The types of data being sent, the latency created by the number of network devices encountered between source and destination. 
+
 
 
 
