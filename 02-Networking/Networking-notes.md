@@ -25,6 +25,12 @@ Bandwidth is the capacity of a medium to transfer data. Digital Bandwidth measur
 ## Throughput
 Throughput is similar to bandwidth, it measures the transfer of bits across media over a given time. But due to a couple factors, usually doesn't match bandiwidth. For example : The amount of data being sent and recieved over the connection, The types of data being sent, the latency created by the number of network devices encountered between source and destination. 
 
+## Client and Server
+All computers connected to a network that participate in network communication are considered hosts. In modern networks, a computer host can act like a Client, a Server, or both. Servers are hosts that have software installed on them to provide data, like email and web pages, to other hosts in the network. Every web destination you visit online has a physical server located somewhere, that is connected to a network, which is connected to the internet. Clients are computer hosts that have software on them, allowing them to request and read data from the servers. An example for client software could be a web browser, 
+
+## P2P Networks
+Stands for peer-to-peer networks. This is when a computer hosts functions as both a client and a server, many small businesses and homes have these
+
 
 
 
